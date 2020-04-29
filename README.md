@@ -15,7 +15,7 @@ Create a `Stack` class that has a list of strings as an instance variable. Add t
 You can test your class with the following code:
 
 ```python
-Stack s = Stack()
+s = Stack()
 print(s.is_empty())
 print(s.values())
 s.add("Value")
@@ -41,7 +41,7 @@ print(s.values())
 s.add("Value")
 print(s.is_empty())
 print(s.values())
-String taken = s.take()
+taken = s.take()
 print(s.is_empty())
 print(s.values())
 print(taken)

@@ -1,6 +1,11 @@
 import pytest
-import src.exercise
+from src.stack import Stack
 
 def test_exercise():
-    #implement tests here
-    assert 0 == 0
+    s = Stack()
+    assert s.is_empty()
+    s.add("Value")
+    assert not s.is_empty()
+    assert s.values() == ["Value"]
+    s.take()
+    assert s.is_empty()
