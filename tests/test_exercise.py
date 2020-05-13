@@ -6,6 +6,6 @@ def test_exercise():
     assert s.is_empty()
     s.add("Value")
     assert not s.is_empty()
-    assert s.values() == ["Value"]
+    assert s.values == ["Value"]
     s.take()
     assert s.is_empty()
